@@ -212,6 +212,3 @@ MSE_df
 
 This shows that the Random Forest and Lasso has least MSE for the same dataset. We can conclude that these model performs better atleast in comparision to the LR model.Their is improvement in the MSE from every obtained model which shows that what kind of impact each of them is leading to. Lasso helped in been more confident about the results from the backward LR model. The variable important too has helped us in interpreting and comparing the results from the backward selection model.
 
-If we consider the estimation of MSE in each case, the smallest occurs when using random forests (providing an expected long-run MSE of around 0.33 via the test set, and similar OOB estimate on the training). In fact, it stands out as substantially better in comparison to the other models, which all have test MSEs of between 0.39-0.44.
-
-If consulting with a company on this data set, and it was clear that they had interest in a simplified model, we might give consideration to the LASSO model with the “within one standard error” lambda value, as the number of predictors is highly reduced even though the predictive power sits about equivalent to the full linear model. But, if instead prediction was of primary importance, then the random forests model would be clearly the route to go.
